@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="50" height="15" tilewidth="54" tileheight="54" nextobjectid="40">
+ <tileset firstgid="1" name="objitem" tilewidth="80" tileheight="80">
+  <tile id="0">
+   <image width="52" height="80" source="../object/role.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="玩家">
+  <object id="31" gid="1" x="175.5" y="702"/>
+ </objectgroup>
+ <objectgroup name="地形">
+  <object id="27" x="13.5" y="756">
+   <polyline points="0,0 2686.5,0"/>
+  </object>
+  <object id="28" x="0" y="540" width="81" height="216"/>
+  <object id="29" x="364.5" y="580.5" width="445.5" height="40.5"/>
+  <object id="30" x="1107" y="565.5" width="94.5" height="189"/>
+ </objectgroup>
+ <objectgroup name="单向地形">
+  <object id="32" x="1431" y="553.5">
+   <polyline points="0,0 216,0"/>
+  </object>
+  <object id="37" x="1620" y="391.5">
+   <polyline points="0,0 405,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="移动平台">
+  <object id="38" x="850.5" y="378" width="202.5" height="40.5"/>
+ </objectgroup>
+</map>
